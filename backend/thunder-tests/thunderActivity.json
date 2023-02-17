@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "b0846ecc-4935-445a-9285-c3ea6663a2b8",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:400/api/v1/createOrder",
+    "url": "http://localhost:4000/api/v1/createorder",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-16T12:22:40.264Z",
+    "modified": "2023-02-16T14:27:00.913Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"shippingInfo\": {\n    \"hNo\": \"A-47\",\n    \"city\": \"chittaging\",\n    \"state\": \"mirsarai\",\n    \"country\": \"india\",\n    \"pinCode\": 32432,\n    \"phone\": 01816090766\n  },\n  \"orderItems\": {\n    \"cheeseBurger\": {\n      \"price\": 200,\n      \"quantity\": 5\n    },\n    \"vegCheeseBurger\": {\n      \"price\": 300,\n      \"quantity\": 7\n    },\n    \"burgerWithFries\": {\n      \"price\": 400,\n      \"quantity\": 9\n    }\n  },\n  \"paymentMethod\": \"COD\",\n  \"itemsPrice\": 3213,\n  \"taxPrice\": 343,\n  \"shippingCharges\": 200,\n  \"totalAmount\": 5000\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0db2f23c-0efa-4727-b9a1-b7aa5d2549c4",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:400/api/v1/createorder",
+    "url": "http://localhost:4000/api/v1/createorder",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-16T14:20:47.298Z",
+    "modified": "2023-02-16T14:31:26.252Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"shippingInfo\": {\n    \"hNo\": \"A-47\",\n    \"city\": \"chittaging\",\n    \"state\": \"mirsarai\",\n    \"country\": \"india\",\n    \"pinCode\": 32432,\n    \"phoneNo\": \"01816090766\"\n  },\n  \"orderItems\": {\n    \"cheeseBurger\": {\n      \"price\": 200,\n      \"quantity\": 5\n    },\n    \"vegCheeseBurger\": {\n      \"price\": 300,\n      \"quantity\": 7\n    },\n    \"burgerWithFries\": {\n      \"price\": 400,\n      \"quantity\": 9\n    }\n  },\n  \"paymentMethod\": \"COD\",\n  \"itemsPrice\": 3213,\n  \"taxPrice\": 343,\n  \"shippingCharges\": 200,\n  \"totalAmount\": 5000\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "61b47bc4-c768-4e36-bf9b-6a1735eac6a0",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:4000/api/v1/myorders",
+    "url": "http://localhost:4000/api/v1/myorders",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-16T14:37:20.524Z",
+    "modified": "2023-02-16T14:37:20.524Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "59a2d7f3-23e7-4bd1-aa0c-1a0673d74464",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:4000/api/v1/myorders",
+    "url": "http://localhost:4000/api/v1/myorders",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-16T14:40:49.289Z",
+    "modified": "2023-02-16T14:40:49.289Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

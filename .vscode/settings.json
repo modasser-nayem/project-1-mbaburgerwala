@@ -1,0 +1,14 @@
+{
+   "css.validate": false,
+   "tailwindCSS.emmetCompletions": true,
+   "editor.fontSize": 19,
+   "editor.fontFamily": "'Fira Code' , Consolas, 'Courier New', monospace",
+   "editor.fontLigatures": true,
+   "editor.wordWrap": "on",
+   "editor.autoClosingBrackets": "always",
+   "path-intellisense.autoTriggerNextSuggestion": true,
+   "editor.formatOnSave": true,
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "prettier.singleAttributePerLine": true,
+   "prettier.tabWidth": 3
+}
