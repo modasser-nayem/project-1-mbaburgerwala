@@ -13,9 +13,13 @@ const logout = (req, res, next) => {
       if (err) {
          return next(err);
       }
-      res.clearCookie("connect.sid");
+      res.clearCookie("connect.sid", {
+         secure: process.env.Node_ENV === "development" ? false : true,
+         httpOnly: process.env.Node_ENV === "development" ? false : true,
+         sameSite: process.env.Node_ENV === "development" ? false : "none",
+      });
       res.status(200).json({
-         message: "Logout User",
+         message: "Logged Out",
       });
    });
 };

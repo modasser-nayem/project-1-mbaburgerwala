@@ -47,6 +47,11 @@ const orderRouter = require("./routes/orderRouter");
 app.use("/api/v1", userRouter);
 app.use("/api/v1", orderRouter);
 
+// route route
+app.get("/", (req, res, next) => {
+   res.send("<h1>Welcome to our Server MBA Burger Wala</h1>");
+});
+
 // not found route
 app.get("*", (req, res) => {
    res.status(404).json({
